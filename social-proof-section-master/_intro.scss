@@ -1,0 +1,14 @@
+.intro {
+    grid-column: 1/2;
+    opacity: 0.5;
+    transform: translateY(1rem);
+}
+
+.ratings {
+    grid-column: 1/3;
+}
+
+.quotes {
+    grid-column: 1/-1;
+}
+

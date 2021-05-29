@@ -1,0 +1,30 @@
+.ratings {
+  >  li {
+         background: $SoftPink;
+         color: $VeryDarkMagenta;
+         font-weight: 700;
+         padding: .5rem;
+         max-width: 25rem;
+         margin-right: auto;
+
+    
+        
+         &::before{
+             content: ' ';
+             width: 100px;
+             height: 1rem;
+             margin: 0 auto;
+             margin-bottom: .5rem;
+             display: block;
+             background-image: url(./images/icon-star.svg);
+            background-repeat: space;
+         }
+
+    }
+}
+
+.flow-content > * + * {
+    margin-top: 1rem;
+    --flow-space: 1em;
+    margin-top: var(--flow-space);
+}

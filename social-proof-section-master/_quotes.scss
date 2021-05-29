@@ -1,0 +1,58 @@
+
+
+.quotes {
+    --spacer: 2rem;
+    blockquote {
+        background: $VeryDarkMagenta;
+        color: $White;
+        text-align: left;
+        padding: 2rem;
+        border-radius: 4px;
+        padding: var(--spacer);
+        margin-left: auto;
+        margin-right: auto;
+       height: auto;
+    } 
+
+    img {
+        border-radius: 50%;
+        margin-right: var(--spacer);
+    }
+}
+
+li {
+    max-width: 25rem;
+}
+
+.split {
+    
+     display: flex;
+     gap: 1em;
+     flex-direction: column;
+
+    @media(min-width: 50em) {
+       flex-direction: row;
+    }
+   
+
+}
+
+.grid {
+    @media (min-width: 50em) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.status {
+    color: $SoftPink;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.quote {
+    margin-top: var(--spacer);
+}
